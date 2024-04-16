@@ -8,8 +8,7 @@ body {
 .box {
     position: relative;
     text-align: center; /* Wyśrodkowanie */
-    max-width: auto;
-    max-height: auto;
+    max-width: 300px;
     background-color: rgb(197, 194, 194);
     margin-bottom: 2%;
     font-size: x-small;
@@ -19,7 +18,7 @@ body {
     /* max-width: 1200px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 3%;
+    column-gap: 2%;
     row-gap: 2%;
     }
  
@@ -38,7 +37,7 @@ body {
     margin: 2%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 850px) {
     .main-blog {
         grid-template-columns: 1fr 1fr 1fr;
     }
