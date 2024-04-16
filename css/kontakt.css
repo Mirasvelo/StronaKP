@@ -1,0 +1,25 @@
+body {
+    padding: 6% 0 2.5% 1%;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-kontakt {
+    padding-right: 2%;
+    align-self: flex-start; /* Wyświetla wszystkie kontenery na górze */
+    white-space: nowrap;
+}
+
+.email-kontakt {
+    font-weight: bold;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+p {
+    line-height: 1.5;
+}
