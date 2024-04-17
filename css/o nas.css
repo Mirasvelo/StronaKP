@@ -2,10 +2,6 @@ body {
     padding: 10% 1% 10% 0;
 }
 
-ul {
-    list-style-type: circle; /* Zmienia styl punktów na kółka */
-}
-
 .box-profil1 {
     display: flex;
     justify-content: space-between; /* Elementy będą równomiernie rozłożone wzdłuż osi poziomej */
