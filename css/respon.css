@@ -118,13 +118,12 @@ footer {
 @media screen and (max-width: 800px) {
   .menu {
     flex-basis: 100%; /* Ustawia bazową szerokość elementu na 100%, aby przenieść go do nowego wiersza */
-    font-size: 85%;
   }
 
   body {
     margin: 6% 0 1% 0;
   }
-
+  .menu,
   footer,
   .text-profil,
   .info-kontakt {
@@ -135,9 +134,14 @@ footer {
     padding: 0px 0px 0px 0px;
   }
 
-  .logo-pk2 {
+  .logo-pk {
     flex: 15% 0 0;
-}
-}
+    max-width: auto;
+  }
 
+  .logo-pk2 {
+    flex: 0 0 20%;
+    max-width: auto;
+  }
+}
 
