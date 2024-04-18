@@ -123,11 +123,16 @@ footer {
   body {
     margin: 6% 0 1% 0;
   }
+
   .menu,
   footer,
   .text-profil,
   .info-kontakt {
     font-size: 85%;
+  }
+
+  .menu {
+    margin-top: 1%;
   }
 
   .box-profil {
@@ -142,6 +147,9 @@ footer {
   .logo-pk2 {
     flex: 0 0 20%;
     max-width: auto;
+  }
+  header {
+    max-height: 80px;
   }
 }
 

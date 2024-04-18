@@ -59,6 +59,9 @@ body {
     .thumbnail {
         max-width: 200px;
     }
+    body {
+        margin: 12% 1% 12% 0;
+    }
   }
 
   @media (max-width: 800px){

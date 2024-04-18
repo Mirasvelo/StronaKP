@@ -1,5 +1,5 @@
 body {
-  padding: 8% 1% 2.5% 1%;
+  margin: 8% 1% 2.5% 1%;
 }
 
 .kontakt {
@@ -31,7 +31,12 @@ p {
     text-align: center;
     width: 100%
   }
+
   .email-kontakt {
     margin: 3%;
+  }
+
+  body {
+    margin: 13% 1% 2.5% 1%;
   }
 }
