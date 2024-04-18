@@ -30,7 +30,7 @@ body {
 
 .line1 {
   transform: rotate(90deg); /* Obrót o 90 stopni */
-  min-width: 250px;
+  min-width: 200px;
 }
 
 .line2 {
@@ -89,7 +89,7 @@ margin-left: 12px;
 
 @media screen and (max-width: 1000px) {
   body {
-    margin: 8% 1% 5% 1%;
+    margin: 12% 1% 10% 1%;
   }
 
   .oferta {
@@ -126,10 +126,10 @@ margin-left: 12px;
 
   .line2 {
     max-width: 80%;
-}
+  }
 
-.img-etapy {
-  display: flex;
-}
+  /* .img-etapy {
+    display: flex;
+  } */
 
 }
