@@ -60,6 +60,10 @@ body {
     .thumbnail {
         max-width: 200px;
     }
+
+    .box-left {
+        max-width: 530px;
+    }
   }
 
   @media (max-width: 800px){
@@ -72,6 +76,6 @@ body {
     }
 
     body {
-        margin: 15% 1% 15% 0;
+        margin: 20% 1% 17% 0;
     }
   }
