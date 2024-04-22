@@ -3,7 +3,7 @@ body {
   font-family: Raleway, sans-serif;
   margin: 0;
   padding: 0;
-  margin: 1% 0 1% 0;
+  /* margin: 0 0 1% 0; */
 }
 
 li {
@@ -22,15 +22,17 @@ li {
 }
 
 .menu {
-  flex: 1; /* Każdy element zajmuje równą część dostępnej przestrzeni */
+  flex: 1; 
+  /* Każdy element zajmuje równą część dostępnej przestrzeni */
   display: flex;
-  flex-direction: row; /* Elementy będą wyświetlane w jednym rzędzie */
+  /* flex-direction: row; */
+   /* Elementy będą wyświetlane w jednym rzędzie */
   align-items: center; /* Wyśrodkowanie zawartości w pionie */
-  justify-content: center; /* Wyśrodkowanie zawartości w poziomie */
-  /* white-space: nowrap; */ /* Uniemożliwia zawijanie tekstu */
+  justify-content: space-between; 
   flex-wrap: wrap; /* Zapewnia, że elementy, które nie mieszczą się w jednym wierszu, przechodzą do następnego */
-  font-size: medium;
+  font-size: x-large;
   font-weight: 600;
+  margin: 1% 5% 0% 5%;
 }
 
 .menu1 {
@@ -57,7 +59,7 @@ a:hover {
 .logo-pk,
 .logo-pk2 {
   font-weight: 600;
-  margin: 0 6px 0 6px;
+  margin: 1% 6px 0 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,15 +68,18 @@ a:hover {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
   width: 100%; /* Divy zajmują całą szerokość kontenera */
-  background-color: #dddada;
-  z-index: 1000;
+  /* background-color: #dddada; */
+  /* z-index: 1000; */
   color: black;
-  text-align: center;
-  max-height: 66px; /* Maksymalna wysokość (w tym przypadku nagłówka) */
+  /* text-align: center; */
+  justify-content: space-between;
+  /* max-height: 66px;  */
+  /* Maksymalna wysokość (w tym przypadku nagłówka) */
+  margin-bottom: 3%;
 }
   
 footer {
@@ -87,18 +92,24 @@ footer {
   text-align: center;
   letter-spacing: 3px;
   font-size: medium;
-  font-weight: 600;
+  font-weight: 400;
 }
 
-.img-menu {
+/* .img-menu {
   padding-top: 15px;
+} */
+
+.tool {
+  max-width: 20%;
+  padding: 1% 2% 0 2%;
+  justify-content: space-between;
 }
 
 /* blok kodu do wyświetlania dymku z tekstem/divem/image */
 .tool .tooltip{
   position: absolute;
   right: 25px;
-  bottom: -30px;
+  top: 60px;
   background-color: grey;
   color: white;
   padding: 4px 8px;
@@ -115,14 +126,14 @@ footer {
 }
 /* blok kodu do wyświetlania dymku z tekstem/divem/image */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .menu {
     flex-basis: 100%; /* Ustawia bazową szerokość elementu na 100%, aby przenieść go do nowego wiersza */
   }
 
-  body {
-    margin: 6% 0 1% 0;
-  }
+  /* body {
+    margin: 0 0 1% 0;
+  } */
 
   .menu,
   footer,
@@ -131,25 +142,26 @@ footer {
     font-size: 85%;
   }
 
-  .menu {
+  /* .menu {
     margin-top: 1%;
-  }
+  } */
 
   .box-profil {
     padding: 0px 0px 0px 0px;
   }
 
-  .logo-pk {
+  /* .logo-pk {
     flex: 15% 0 0;
     max-width: auto;
-  }
+  } */
 
   .logo-pk2 {
     flex: 0 0 20%;
     max-width: auto;
   }
-  header {
+
+  /* header {
     max-height: 80px;
-  }
+  } */
 }
 
